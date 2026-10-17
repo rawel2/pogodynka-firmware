@@ -1,6 +1,9 @@
 Pogodynka STM32H7B3I-DK - historia wersji
 (numer w Core/Inc/version.h: główna.funkcje.poprawki; widoczny na stronie www w zakładce "Urządzenie")
 
+1.5.1  18.10.2026
+  - wydanie próbne: pierwsza instalacja z internetu (bez zmian w działaniu)
+
 1.5.0  18.10.2026
   - aktualizacja z internetu: publiczne repozytorium wydań github.com/rawel2/pogodynka-firmware,
     instalacja sama w nocy (ok. 3:00, można wyłączyć) albo "Sprawdź teraz" / "Zainstaluj" na stronie www
