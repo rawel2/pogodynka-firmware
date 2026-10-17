@@ -1,6 +1,11 @@
 Pogodynka STM32H7B3I-DK - historia wersji
 (numer w Core/Inc/version.h: główna.funkcje.poprawki; widoczny na stronie www w zakładce "Urządzenie")
 
+1.5.2  18.10.2026
+  - aktualizacja z internetu: pobieranie programu po 8 kB (moduł Wi-Fi nie odbiera przez TLS dużego pliku
+    jednym połączeniem), każdy fragment do 4 prób, zapis prosto do drugiego banku
+  - klient HTTP: przy znanej długości odpowiedzi czeka na dane do 10 s ciszy
+
 1.5.1  18.10.2026
   - wydanie próbne: pierwsza instalacja z internetu (bez zmian w działaniu)
 
