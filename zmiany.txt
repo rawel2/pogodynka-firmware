@@ -1,6 +1,12 @@
 Pogodynka STM32H7B3I-DK - historia wersji
 (numer w Core/Inc/version.h: główna.funkcje.poprawki; widoczny na stronie www w zakładce "Urządzenie")
 
+1.6.0  18.10.2026
+  - nowe ostrzeżenia IMGW na telefon (ntfy, wysoki priorytet), każde raz - także po restarcie
+  - poranna prognoza na telefon o ustawionej godzinie (domyślnie 6:30): temperatury, opis, opad,
+    podpowiedź, ostrzeżenia, imieniny lub święto, najbliższe odliczanie; "wyślij prognozę teraz"
+  - kolejka powiadomień ntfy (kilka wiadomości naraz), diagnostyka MORNING
+
 1.5.2  18.10.2026
   - aktualizacja z internetu: pobieranie programu po 8 kB (moduł Wi-Fi nie odbiera przez TLS dużego pliku
     jednym połączeniem), każdy fragment do 4 prób, zapis prosto do drugiego banku
