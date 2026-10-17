@@ -1,0 +1,32 @@
+Pogodynka STM32H7B3I-DK - historia wersji
+(numer w Core/Inc/version.h: główna.funkcje.poprawki; widoczny na stronie www w zakładce "Urządzenie")
+
+1.5.0  18.10.2026
+  - aktualizacja z internetu: publiczne repozytorium wydań github.com/rawel2/pogodynka-firmware,
+    instalacja sama w nocy (ok. 3:00, można wyłączyć) albo "Sprawdź teraz" / "Zainstaluj" na stronie www
+  - tools/release.py - wydanie nowej wersji jednym poleceniem
+
+1.4.0  18.10.2026
+  - strona www z zakładkami: Pogoda (strona główna), Notatki, Przypomnienia, Ustawienia, Urządzenie
+  - zapis formularzy i przyciski w tle (dymek "Zapisano", bez przeładowania i przewijania na górę)
+  - wspólny wygląd i skrypt (/s.css, /a.js) zapamiętywane przez przeglądarkę - mniejsze strony
+  - numer wersji programu (bieżący i zapasowy) na stronie "Urządzenie"
+
+1.3  17.10.2026
+  - aktualizacja programu przez Wi-Fi (dwa banki flash, powrót do poprzedniego), tools/ota.py
+  - notatka na ekranie (strona www, telefon), odliczanie do 10 dat
+  - powiadomienia ntfy o niepotwierdzonym przypomnieniu, notatki z telefonu i potwierdzenia
+  - podpowiedź z prognozy co 15 minut ("Za ok. 20 min deszcz")
+  - tendencje ciśnienia, wilgotności i wiatru, ciśnienie na wykresie 24 h
+  - poprawki ekranów "Teraz" i "Powietrze i pyłki"
+
+1.2  17.10.2026
+  - obudowa z drukarki 3D (case/), dokumentacja obudowy
+
+1.1  12.10.2026
+  - powietrze i pyłki, indeks UV, podpowiedź o parasolu, imieniny i święta, czas zapasowy z HTTP
+  - potwierdzenia przypomnień zapisywane we flashu
+
+1.0  10-12.10.2026
+  - aplikacja zegarka pogodowego przeniesiona na STM32H7B3I-DK: ekrany pogody, Wi-Fi na płytce,
+    strona www, przypomnienia, tryb nocny, minutnik
